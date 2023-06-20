@@ -1,6 +1,7 @@
 /*
 Calculo Numerico: Tabalho 2
 
+Lucas A. Pataluch
 Murilo M. Grosso - 13672043
 Octavio X. Furio - 13681862
 */
@@ -99,7 +100,7 @@ void MMQ(int n, double* t, double* y, double* a)
     a[2] = (soma_g1_g1 * soma_g2_y - soma_g1_g2 * soma_g1_y)/denom;
 
     printf("\n\tFuncao de ajuste:");
-    printf("\n\tg(t) = %f + %ft³\n\n", a[1], a[2]);
+    printf("\n\tg(t) = %f + %ft²\n\n", a[1], a[2]);
 
     printf("\tSQres = %f\n", SQres(n,t,y,a));
     printf("\tSQtot = %f\n", SQtot(n,t,a));
@@ -115,7 +116,7 @@ double g1(double t)
 //Funcao g2(t) = t²
 double g2(double t)
 {
-    return t*t*t;
+    return t*t;
 }
 
 //Funcao g(t) = a1g1(t) + a2g2(t)
