@@ -1,9 +1,9 @@
 /*
 Calculo Numerico: Tabalho 2
 
-Lucas A. Pataluch
-Murilo M. Grosso - 13672043
-Octavio X. Furio - 13681862
+Lucas A. Pataluch - 13861180
+Murilo M. Grosso  - 13672043
+Octavio X. Furio  - 13681862
 */
 
 #include <stdio.h>
